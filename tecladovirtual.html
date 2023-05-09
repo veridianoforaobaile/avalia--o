@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclas</title>
+    <link rel="stylesheet" href="tecladovirtual.css">
+</head>
+<body>
+    <div class="d0">
+        <div class="d1">
+            <div class="d101">
+                esc
+            </div>
+
+        </div>
+        <div class="d2">
+            <div class="d201">
+                ~ 
+                <br>
+                `
+            </div>
+            <div class="d202">
+                !
+                <br>
+                1
+            </div>
+            <div class="d203">
+                @
+                <br>
+                2
+            </div>
+            <div class="d204">
+                #
+                <br>
+                3
+            </div>
+            <div class="d205">
+                $
+                <br>
+                4
+            </div>
+            <div class="d206">
+                %
+                <br>
+                5
+            </div>
+            <div class="d207">
+                ^
+                <br>
+                6
+            </div>
+            <div class="d208">
+                &
+                <br>
+                7
+            </div>
+            <div class="d209">
+                *
+                    <br>
+                    8
+            </div>
+            <div class="d210">
+                (
+                <br>
+                9
+            </div>
+            <div class="d211">
+                )
+                <br>
+                0
+            </div>
+            <div class="d212">
+                _ 
+                <br>
+                -
+            </div>
+            <div class="d213">
+                +
+                <br>
+                =
+            </div>
+            <div class="d214">
+                backspace
+            </div>
+
+        </div>
+        <div class="d3">
+            <div class="d301">
+                tabs
+            </div>
+            <div class="d302">
+                q
+            </div>
+            <div class="d303">
+                w
+            </div>
+            <div class="d304">
+                e
+            </div>
+            <div class="d305">
+                r
+            </div>
+            <div class="d306">
+                t
+            </div>
+            <div class="d307">
+                y
+            </div>
+            <div class="d308">
+                u
+            </div>
+            <div class="d309">
+                i
+            </div>
+            <div class="d310">
+                o
+            </div>
+            <div class="d311">
+                p
+            </div>
+            <div class="d312">
+                {
+                    <br>
+                    [
+            </div>
+            <div class="d313">
+            }
+            <br>
+            ]
+            </div>
+            <div class="d314">
+                |
+                <br>
+                \
+            </div>
+
+        </div>
+        <div class="d4">
+            <div class="d401">
+                pesquisar
+            </div>
+            <div class="d402">
+                a
+            </div>
+            <div class="d403">
+                s
+            </div>
+            <div class="d404">
+                d
+            </div>
+            <div class="d405">
+                f
+            </div>
+            <div class="d406">
+                g
+            </div>
+            <div class="d407">
+                h
+            </div>
+            <div class="d408">
+                j
+            </div>
+            <div class="d409">
+                k
+            </div>
+            <div class="d410">
+                l
+            </div>
+            <div class="d411">
+                :
+                <br>
+                ;
+            </div>
+            <div class="d412">
+                "
+                <br>
+                '
+            </div>
+            <div class="d413">
+                enter
+            </div>
+        </div>
+        <div class="d5">
+            <div class="d501">
+                shift
+            </div>
+            <div class="d502">
+                z
+            </div>
+            <div class="d503">
+                x
+            </div>
+            <div class="d504">
+                c
+            </div>
+            <div class="d505">
+                v
+            </div>
+            <div class="d506">
+                b
+            </div>
+            <div class="d507">
+                n
+            </div>
+            <div class="d508">
+                m
+            </div>
+            <div class="d509">
+                < 
+                   <br>
+                   , 
+            </div>
+            <div class="d510">
+                >
+                <br>
+                .
+            </div>
+            <div class="d511">
+                ?
+                <br>
+                /
+            </div>
+            <div class="d512">
+                shift
+            </div>
+        </div>
+        <div class="d6">
+            <div class="d601">
+                ctrl
+            </div>
+            <div class="d602">
+                alt
+            </div>
+            <div class="d603"></div>
+            <div class="d604">
+                alt
+            </div>
+            <div class="d605">
+                ctrl
+            </div>
+            <div class="d7">
+            <div class="d8">
+                <-
+            </div>
+            <div class="d9">
+                <div class="d11">
+                    ^
+                    <br>
+                    |
+                </div>
+                <div class="d12">
+                    |
+                    <br>
+                    v
+                </div>
+            </div>
+            <div class="d10">
+                ->
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+<script>
+    
+document.onkeydown = Pega_Tecla;
+
+function Pega_Tecla(e) 
+{	
+    e = e || window.event;
+
+    tecla = e.keyCode;
+    console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+    
+
+
+
+}
+</script>
+
+</html>
